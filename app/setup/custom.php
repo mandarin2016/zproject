@@ -1,7 +1,7 @@
 <?php
-use Application\System\Depends\depRegist;
+use Zproject\System\Depends\depRegist;
 $customDir=__DIR__.'/../custom';
-$customsDirs=\Application\System\Files\aExplorer::returnDirs($customDir);
+$customsDirs=Zproject\System\Files\aExplorer::returnDirs($customDir);
 foreach($customsDirs as $k => $v){
 $domain= require_once($v.'/domain.php');
 if(strpos($_SERVER['HTTP_HOST'], $domain) !== false){

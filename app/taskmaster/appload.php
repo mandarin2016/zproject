@@ -3,7 +3,7 @@ namespace Zproject\System\Routing{
     class mainRout{
         static $loader; 
         private static function classLoader(string $cn){
-            if('Application\\System\\Routing\\classLoaderObj'===$cn){
+            if('Zproject\\System\\Routing\\classLoaderObj'===$cn){
                 require_once __DIR__ ."/compose.php";
             } 
         }

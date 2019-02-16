@@ -1,6 +1,6 @@
 <?php
 namespace Zproject\System\Routing{
-    use Application\System\Depends\depRegist as dpnds;
+    use Zproject\System\Depends\depRegist as dpnds;
     include __DIR__."/../setup/include.php";
     require_once __DIR__.'/../kernel/dep.registrator.php';
 
